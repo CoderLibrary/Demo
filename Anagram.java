@@ -10,7 +10,7 @@ public class Anagram {
         char[] c1 = s1.toCharArray();
         char[] c2 = s2.toCharArray();
         Arrays.sort(c1);
-        Arrays.sort(c2);
+        Arrays.sort(c2);    //sort method of java.util.Arrays class
         if (Arrays.equals(c1, c2)) {
             System.out.println("It is anagram");
         } else {
